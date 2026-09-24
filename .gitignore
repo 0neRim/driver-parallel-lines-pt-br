@@ -1,0 +1,25 @@
+# Python cache and temporary files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Temporary and system files
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+*.scc
+*.orig
+
+# Staging or scratch folders
+scratch/
+build/
+dist/
+
+# Large binary files (>100MB) that exceed GitHub standard push limits.
+# Recommended: upload Driver_Parallel_Lines_PTBR_v2.0.zip to GitHub Releases.
+# If you prefer pushing directly to Git, install Git LFS (git lfs track "Sounds/SOUND.SP")
+# and comment out the lines below:
+*.zip
+Sounds/SOUND.SP
+

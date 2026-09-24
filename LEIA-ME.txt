@@ -1,0 +1,202 @@
+================================================================================
+  TRADUÇÃO INTEGRAL PARA O PORTUGUÊS DO BRASIL (PT-BR)
+  DRIVER: PARALLEL LINES (PC)
+================================================================================
+
+Versão da Tradução: 2.0 Final
+Data de Lançamento: Setembro de 2026
+Histórico de Versões:
+  • v1.0 (Dezembro de 2025) - Menus, cutscenes, briefings e objetivos
+  • v2.0 (Setembro de 2026) - Tradução 100% integral: adição do SOUND.SP
+    (692 legendas in-game), LifeEvents binários (3.093 entradas),
+    revisão geral de gírias e correção de glifos acentuados (□).
+Compatibilidade: Driver: Parallel Lines (PC - Steam / GOG / Retail)
+Plataformas: Windows, Linux (Wine / Proton / Steam Deck / Heroic Games Launcher)
+
+--------------------------------------------------------------------------------
+1. CRÉDITOS E AGRADECIMENTOS
+--------------------------------------------------------------------------------
+• Idealização, Coordenação e Direção do Projeto:
+  Romoaldo Cordeiro dos Santos Júnior
+
+• Adaptação Cultural, Localização de Gírias e Linguagem de Época:
+  Romoaldo Cordeiro dos Santos Júnior
+
+• Engenharia Reversa dos Formatos Binários, Modding & Verificação de
+  Integridade da Engine:
+  Desenvolvido com assistência de Pair Programming e Engenharia de Localização
+
+• Agradecimentos Especiais:
+  A toda a comunidade brasileira de fãs de Driver e aos entusiastas de jogos
+  de mundo aberto e corrida que mantêm vivo este clássico da Reflections
+  Interactive / Atari / Ubisoft.
+
+--------------------------------------------------------------------------------
+2. SOBRE ESTA LOCALIZAÇÃO
+--------------------------------------------------------------------------------
+Esta é a mais completa, autêntica e tecnicamente auditada tradução de
+Driver: Parallel Lines já produzida para o Português do Brasil. O projeto foi
+desenvolvido com extremo rigor técnico e respeito absoluto ao contexto da
+trama, que se passa no submundo criminal de Nova York nas eras de 1978 e 2006.
+
+• 100% dos Textos do Jogo Traduzidos (121 Arquivos):
+
+  - Cutscenes e Cinemáticas (17 arquivos):
+    Todas as legendas das cenas narrativas do jogo, desde a chegada do
+    protagonista TK à Nova York de 1978 até a sua vingança sangrenta em 2006.
+
+  - Briefings de Missão (27 arquivos):
+    Todos os diálogos de briefing antes de cada missão, incluindo as instruções
+    de Slink, Ray, os mexicanos, The Colombian e os contatos do submundo.
+
+  - Objetivos de Missão (34 arquivos):
+    Todos os textos de objetivos exibidos na tela durante as missões, incluindo
+    instruções de perseguição, fuga, eliminação e coleta.
+
+  - Rádio, Tutoriais e Scripts de Áudio (27 arquivos):
+    Legendas de transmissões de rádio, instruções do tutorial completo,
+    diálogos das corridas ilegais e conversas durante gameplay.
+
+  - Interface e Menus (8 arquivos):
+    Menus principais, tela de opções, menus de pausa (eras 70s e 2000s),
+    garagens de veículos e interface do tutorial.
+
+  - Textos do Sistema (5 arquivos):
+    Controles e ações, nomes de veículos, textos genéricos do HUD,
+    overlays de tela e textos de rede/multijogador.
+
+  - Containers Binários LifeEvents (2 arquivos .sp — 3.093 entradas):
+    Textos de missões embutidos nos containers binários CHNK/LOCC/LOCT do
+    sistema LifeEvents da engine, incluindo os textos de todas as missões
+    da era 1978 (nyc_then) e da era 2006 (nyc_now). Engenharia reversa
+    completa do formato binário proprietário com reconstrução setor-a-setor.
+
+  - Banco de Sons SOUND.SP (1 arquivo .sp — 692 legendas):
+    Todas as legendas de diálogos falados durante o gameplay (frases de
+    perseguição policial, insultos de rua, ordens de gangue, reações de NPCs),
+    embutidas no banco de áudio binário CHNK/SGSC de 162 MB. Engenharia
+    reversa completa do formato de metadados SS12 com tabelas de 16 slots
+    e reconstrução dentro dos limites de setor de 2048 bytes.
+
+• Localização Cultural Autêntica e Sem Censura:
+  - Todos os palavrões, insultos e linguagem de rua foram mantidos na
+    íntegra, sem qualquer tipo de suavização ou censura. A tradução reflete
+    fielmente o tom brutal e visceral do jogo original:
+    "porra", "caralho", "merda", "filho da puta", "desgraçado", "vai tomar
+    no cu", "puta que pariu" — exatamente como as ruas de Nova York falariam
+    se fossem brasileiras.
+
+• Diferenciação de Eras com Gírias de Época:
+  - Era 1978 (Nova York dos anos 70/80):
+    Gírias e expressões da época como "tiras" e "cana" para polícia, "grana"
+    para dinheiro, "mina" para mulher, "bronca" para problema, "trampo" para
+    trabalho, "bicho" como interjeição, "dar o fora" para fugir.
+  - Era 2006 (Nova York moderna):
+    Linguagem atualizada e mais fria, refletindo o tom de vingança do
+    protagonista: "os cana", "fita" para esquema, "cagueta" para delator,
+    "traíra" para traidor, gírias de periferia contemporânea.
+
+• Adaptação de Personagens:
+  - "TK" permanece como "TK" (nome próprio do protagonista).
+  - "The Kid" / "Kid" traduzido como "Moleque" (tom depreciativo usado pela
+    maioria dos personagens) ou "Garoto" (usado por Ray, que trata TK com
+    mais respeito).
+  - "Wheelman" traduzido como "Piloto de fuga".
+
+• Garantia de Compatibilidade Técnica:
+  - 100% dos arquivos de texto compilados em UTF-16 Little Endian com BOM
+    (0xFF 0xFE) e terminações de linha Windows CRLF (\r\n), exatamente como
+    a engine do jogo exige.
+  - Containers binários .sp reconstruídos byte-a-byte com alinhamento de
+    setor de 2048 bytes preservado. Tamanho total dos arquivos idêntico ao
+    original.
+  - Sanitização completa de glifos: nenhum caractere fora do charset da
+    fonte do jogo (sem "Ã" ou "Õ" maiúsculos, sem travessões tipográficos,
+    sem aspas curvas, sem reticências Unicode). Zero glifos ausentes (□).
+  - Preservação exata de todos os tokens especiais da engine: macros (#Macro),
+    glifos de botões ($^A, &^A) e especificadores de formato (%s, %d).
+  - Zero travamentos (CTD). Zero corrupção de dados. Zero regressões.
+
+--------------------------------------------------------------------------------
+3. INSTRUÇÕES DE INSTALAÇÃO
+--------------------------------------------------------------------------------
+A instalação é extremamente simples e não requer nenhum instalador externo:
+
+PASSO 1:
+Localize a pasta raiz onde o seu Driver: Parallel Lines está instalado.
+Exemplos comuns de diretórios:
+
+• No Windows (Steam):
+  C:\Program Files (x86)\Steam\steamapps\common\Driver Parallel Lines\
+
+• No Windows (GOG):
+  C:\GOG Games\Driver Parallel Lines\
+
+• No Linux / Steam Deck (Proton / Steam):
+  ~/.local/share/Steam/steamapps/common/Driver Parallel Lines/
+
+• No Linux (Heroic Games Launcher):
+  ~/Games/Heroic/Driver Parallel Lines/
+
+PASSO 2 (RECOMENDADO):
+Faça uma cópia de segurança (backup) das seguintes pastas/arquivos originais
+caso queira reverter para o inglês futuramente:
+- FMV/
+- GUI/
+- Music/
+- Text/
+- LifeEvents/nyc_then_mission_text.sp
+- LifeEvents/nyc_now_mission_text.sp
+- Sounds/SOUND.SP
+
+PASSO 3:
+Copie as pastas "FMV", "GUI", "Music", "Text", "LifeEvents" e "Sounds" deste
+repositório (ou do arquivo .zip) e cole-as diretamente na pasta raiz do jogo.
+Quando o sistema perguntar se deseja substituir os arquivos existentes,
+escolha "SIM" (Substituir todos / Mesclar pastas).
+
+PASSO 4:
+Abra o Driver: Parallel Lines e aproveite o jogo 100% em Português do Brasil!
+
+--------------------------------------------------------------------------------
+4. COMO DESINSTALAR / REVERTER PARA O INGLÊS ORIGINAL
+--------------------------------------------------------------------------------
+Se por qualquer motivo desejar retornar ao idioma inglês:
+
+1. Caso tenha feito o backup do PASSO 2, basta restaurar os arquivos salvos.
+2. Na Steam: Clique com o botão direito no jogo na sua Biblioteca ->
+   Propriedades -> Arquivos Instalados -> "Verificar integridade dos arquivos".
+3. No GOG Galaxy: Clique nas configurações do jogo e selecione
+   "Verificar / Reparar".
+4. No Heroic Games Launcher: Clique nas configurações do jogo e selecione
+   "Verificar Arquivos".
+
+--------------------------------------------------------------------------------
+5. CONTEÚDO DESTE PACOTE
+--------------------------------------------------------------------------------
+driver-parallel-lines-traducao-ptbr/
+├── LEIA-ME.txt .................. Este arquivo de documentação e créditos
+├── README.md .................... Documentação para o GitHub
+├── LICENSE ...................... Licença MIT e isenção de responsabilidade
+├── FMV/ ......................... Cutscenes e cinemáticas (17 arquivos)
+├── GUI/ ......................... Interface e menus (8 arquivos)
+├── Music/ ....................... Rádio e scripts de áudio (27 arquivos)
+├── Text/ ........................ Textos do sistema (5 arquivos)
+├── LifeEvents/ .................. Containers binários de missão (2 arquivos .sp)
+├── Sounds/ ...................... Banco de sons com legendas in-game (SOUND.SP)
+└── scripts/ ..................... Scripts utilitários de patching e rebuild
+
+Total: 121 arquivos traduzidos
+
+--------------------------------------------------------------------------------
+6. TERMOS DE USO E LICENÇA
+--------------------------------------------------------------------------------
+Esta tradução é um projeto livre e gratuito, criado por fãs e para fãs da
+franquia Driver. É expressamente proibida a comercialização total ou parcial
+destes arquivos. Se você baixou esta tradução como parte de um pacote pago,
+exija seu dinheiro de volta.
+
+Driver: Parallel Lines, Driver e seus respectivos logotipos são marcas
+registradas da Ubisoft Entertainment (anteriormente Atari / Reflections
+Interactive). Todos os direitos reservados.
+================================================================================
