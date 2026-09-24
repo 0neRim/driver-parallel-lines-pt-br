@@ -102,14 +102,6 @@ driver-parallel-lines-traducao-ptbr/
 
 ---
 
-## ⚙️ Dica para o Git e Arquivos Grandes (Git LFS)
-
-O arquivo `Sounds/SOUND.SP` possui cerca de **155 MB (162.445.312 bytes)**. Como o GitHub possui um limite rígido de **100 MB** por arquivo para `git push` normal, recomendamos:
-1. **Opção A (Git LFS)**: Instalar o `git-lfs` (`git lfs install` e `git lfs track "Sounds/SOUND.SP"`). O arquivo `.gitattributes` já está configurado.
-2. **Opção B (GitHub Releases)**: Disponibilizar o arquivo `.zip` completo (que compactado fica com ~98 MB) diretamente na aba **Releases** do repositório no GitHub!
-
----
-
 ## 💖 Apoie o Projeto
 
 Se você gostou deste projeto e deseja incentivar novos trabalhos de localização de jogos clássicos para a nossa comunidade, considere apoiar via Pix:
