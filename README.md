@@ -22,6 +22,13 @@ Tradução e localização integral, autêntica e tecnicamente homologada de **D
 
 ---
 
+## 📥 Download Direto da Tradução
+
+Para baixar o pacote pronto para instalação, faça o download do arquivo compactado:
+👉 **[Baixar Driver_Parallel_Lines_PTBR_v2.0.zip](https://github.com/0neRim/driver-parallel-lines-pt-br/releases/download/v2.0/Driver_Parallel_Lines_PTBR_v2.0.zip)** *(Disponível também na aba [Releases](https://github.com/0neRim/driver-parallel-lines-pt-br/releases/tag/v2.0))*.
+
+---
+
 ## 🌟 Destaques da Localização
 
 ### 1. 100% dos Textos Traduzidos (121 Arquivos Auditados)
